@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Swiss Products</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>wiss <span>P</span>roducts</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Products</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Welcome to, <span></span></h1>
+        <h1>Swiss <span></span></h1>
+        <h1>Products <span></span></h1>
+        <a href="#projects" type="button" class="cta">More</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>Here in the SERVICES section you would find information about the available services</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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"/></div>
+          <h2>Tours</h2>
+          <p>You can go to lucerne and have a historical tour (You'll hear fascinating stories about the Swiss art of war and the mercenaries, and find out more about law and order in the Middle Ages.)</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE8UlEQVR4nO1aXWhbZRh+TrKkadI0aXWKXrTaSp0/m5113YXdBB0i0jqha+cP/mBnFRFnqxtVdCrIOlFnZLPYCy8UBK0wwbKrQTtW5xBy5wreTES3TlHKUPAHp6+85zuHnuQkOb9JvrOdFx5ovuR7v/d9vvfvNAFCCaXaEgVwG4AcgFMactoav3dBShRAH4B3ASwBoDL4FcBHAAYANCDgkgQwCOBjAOeMjnZdHqWJuxL09URaBf/Na0VknNP2Dmq6AiFZAEPaLf5udOj6K6L0Sn+C8i82E73fUhKnXs9QbjhJt3auIkUpIONPALMARgFcBsnkUgAPawb+rRsdUUA9bcLpb18rdPqHyQwNro9TOqGouLc7ZvrM93sFGVuui9GqSAEZ5wF8CWAngCvr5XSbZsARAP/oxkUjUG+PDT+9L1Pyltn51pRiyv+WpKK+V2rPL29l6cNHU9S/NkbxaMG+fwHkAbwKoKvaTndoTjP7/+lGJGKKatj0g0n6+c1s2fDWwTfP++5cA1p8AXRyArTlWqFrqCduuX95f5ZmHk/RQxvj1NRgInJRI6PHL6dv0BQuGg9KxoXTfCu/5aydNoJDnnWw48uTAt9MCL3NCcWRrj8OZOmLp5pUMjKNJjK+07oOdx/FjfPzRoWrmxTa0ddAh59uor8O2jfSCQHshFu9bBPbxjauTpvImHNDADGeub2B5sfTdH7KvdNGcMFjvRz2TAI7f0eXOGvYRgrYAdvKNrPtBhLcEUA+GGQEV3sueMVF8JKUQj+WKYJeIB0BpHUCLnic8wy++Wo4Ly0BVEOEBMBjBODCgWNZkMBov3DMDQFGURXln68MC7Zl0eFKiKEPLuVgx3gJdLgnAN7yTRYdqHY9OCa5Dk9CpULQIeOy6HAlxPA4bMiiw5WQJMaHBCCMAIQpQGENaAmLIAW1C0AuLFzsBFDtCZjeW4ixEbHedTUhP+svOtuF7vEd5nOlIaBvg1h/YKv/BGwfELo39UpKwK5RQiQi8NmU/wR8enBF/+4nJCNg1yghk7Z/+2+/RLj5RkJjQqBnLWH/y9b7hvvFGXwWn1l3AsZGRNjzrfDrjd2EE59XduKRbeWL2GPDlfey7t5u8Vk+k8/W605dCABWjOGbt3Kebx6geEyhN8Zb6cxcu4p9Y63qmqort8eahPsGVkivaxe45irhuN2c57AHVIfpZEcBeE3VuWGdPV0zU4T77xE21I2AvMNClkyo+5bm200EnD2qtblko3O9QSPgzJyZgNNzbUJnKhkgAjrbRX/mFmXHUK72ZVJg8lmHKfDJAdEV9AHJhu3HfZyri4qgIoyxKoLc6rQiyCS4KoJfHSIM3U1QzN9O27s1eJurC/5xyWMpT2Z6ReYWZUUCt7pyZ45st3a+96aVzrO5V9jghIBlj19IFHxGH0R4Mss2izVuUVbh+84ewi3rRE1gcNhb3TyDb14dhJoJu590PAhR1QgoHoVn3nNeyOzkPIe9OgobnLdJwHEXKWCN4oeSTdrDEPdnvwnQx+DN7h6GqCYE6GMpDyd+E9Chtcnn3D0OU6nW58MvNmRDSEBtcl/H7Af2oe1ZOvtTRXjRXbvcR8AIWJ70F15Is02ATzWAQgJQxQgobkeV4DQCXOiufQRMB4QASIRa14CFi52Aaklg2mC1JCQAEqRTPVNgQQJna/KbwlAQQPkfheMkE7TSw78AAAAASUVORK5CYII="/></div>
+          <h2>Accomodation</h2>
+          <p>Swiss financial center relies on to operate, develop, and digitalize business and private payments. Interbank payments and debit card and mobile transactions are a major part of this infrastructure.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Food and Beverages</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Attractions</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Our <span>Products</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Product 1</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Product 2</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Product 3</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Product 4</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Product 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>us</span></h1>
+        <h2>Head Swiss Product Executive</h2>
+        <p>Welcome to Swiss Products! We are a company dedicated to providing our customers with high-quality Swiss-made products. Our mission is to offer a wide range of products that are made in Switzerland and meet the highest standards of quality and craftsmanship. We believe that Swiss-made products are synonymous with excellence, and we are proud to share this with our customers. At Swiss Products, we work closely with Swiss manufacturers to ensure that our customers receive products that are authentic and of the highest quality. From Swiss watches to Swiss chocolates, we offer a wide variety of products that are perfect for anyone who appreciates Swiss craftsmanship. We believe that our customers deserve the best, and we strive to provide exceptional customer service with every order. We are committed to ensuring that our customers are satisfied with their purchases, and we stand behind every product that we sell. Thank you for choosing Swiss Products, and we look forward to serving you!</p>
+        <a href="#" class="cta">Home</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+41 052 234 34 98</h2>
+            <h2>+41 091 401 70 27</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>SwissProducts@gmail.com</h2>
+            <h2>SwissProductsCustomerService@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Sondanella 115, Grundhof, Switzerland</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>wiss <span>P</span>roducts</h1>
+      </div>
+      <h2>Your Complete Guide to Swiss Products</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 Swiss Products. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
